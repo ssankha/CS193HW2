@@ -122,7 +122,8 @@ To move onto the next breakpoint sector, you have to resume the program.
 
 
 ## Step 3: Fix those bugs
-Use print statements, the debugger, or any strategy you'd like to fix the bugs in the methods and pass the test cases. You might also want to try to understand the algorithms, such as binary search, as they commonly show up in technical interviews (although you're not required to do this).
+Use print statements, the debugger, or any strategy you'd like to fix the bugs in the methods and pass the test cases. You might also want to try to understand the algorithms, such as binary search, as they commonly show up in technical interviews (although you're not required to do this). 
+**You are NOT allowed to make any changes to the testcase file. If you feel there is a need to make changes, please email your TA or post on Piazza. It will be an automatic 0 if changes are made**
 
 [Click here for Intellij's debugger documentation](https://www.jetbrains.com/help/idea/debugging-code.html)
 
