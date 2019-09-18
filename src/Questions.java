@@ -30,6 +30,7 @@ public class Questions {
 
     public static int findMin(int[] input){
         // find the smallest element in the array
+        // testing testing
         int min = Integer.MIN_VALUE;
         for(int i = 0; i<= input.length; i++){
             if (input[i] > min){
