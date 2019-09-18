@@ -49,9 +49,9 @@ public class TestCases {
 
     @Test
     public void testBinarySearch() {
-        assertEquals(8, Questions.binarySearch(new int[]{1,2,3,4,5,6,7,8}, 8));
-        assertEquals(4, Questions.binarySearch(new int[]{3,4,5,6,7,8,9,10}, 4));
-        assertEquals(10, Questions.binarySearch(new int[]{2,4,6,8,10,12,14,16,18}, 10));
+        assertEquals(7, Questions.binarySearch(new int[]{1,2,3,4,5,6,7,8}, 8));
+        assertEquals(1, Questions.binarySearch(new int[]{3,4,5,6,7,8,9,10}, 4));
+        assertEquals(4, Questions.binarySearch(new int[]{2,4,6,8,10,12,14,16,18}, 10));
     }
 
     @Test
