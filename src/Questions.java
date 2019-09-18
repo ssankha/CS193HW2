@@ -7,7 +7,9 @@
 *
 * The overall algorithm should not change. Don't focus on improving the runtime. 
 *
-* Debug in whichever way you feel is best. 
+* Debug in whichever way you feel is best.
+*
+* IT WILL BE AN AUTOMATIC 0, IF YOU MAKE CHANGES TO TESTCASES.JAVA
 *
 * Bonus: Understand these methods! They are helpful in interviews :)
 * 
