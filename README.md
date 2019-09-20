@@ -4,7 +4,7 @@
 As you heard from lecture, debugging is a very useful and necessary tool for developing software and solving problems. In this homework assignment you will be tasked with fixing errors in serveral methods. Each method solves a different problem such as finding the minimum in an array or running a binary search. The algorithm for each problem will be given, but there are small bugs littered in the code preventing the test cases from passing. 
 
 ## When is this due?
-This homework will be due on 10/7/2019.
+This homework will be due on **10/7/2019**.
 
 ## When will I know I'm done?
 You will know that you have finished when all the test cases pass and your code is visible on GitHub. There will be hidden test cases that checks for any hardcoded solutions.
