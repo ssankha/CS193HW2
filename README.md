@@ -9,8 +9,6 @@ This homework will be due in ######
 ## When will I know I'm done?
 You will know that you have finished when all the test cases pass and your code is visible on GitHub. There will be hidden test cases that checks for any hardcoded solutions.
 
-***
-
 ## The Scenario
 Picture this: You land a great internship as a Freshman thanks to all the skills you learned in CS193, and are put to the task of picking up where last year's IU intern left off.
 
@@ -50,19 +48,6 @@ Click `Check out from Version Control` -> `Git` -> `Log in to GitHub...`
 
 ![](./images/print_before.png)
 ![](./images/print_after.png)
-
-6. Commit and push your changes
-
-![](./images/intellij_commit_button.png)
-![](./images/intellij_commit_dialog.png)
-
-7. Confirm you'd like to push changes
-
-![](./images/intellij_push_dialog.png)
-
-#### NOTE: Each time you open this project, you should PULL to make sure your local repository is up to date with the remote repository
-
-![](./images/intellij_pull_button.png)
 
 ## Step 2: Running and debugging JUnit testcases
 1.  Configure IntelliJ for JUnit
@@ -127,8 +112,21 @@ Use print statements, the debugger, or any strategy you'd like to fix the bugs i
 
 [Click here for Intellij's debugger documentation](https://www.jetbrains.com/help/idea/debugging-code.html)
 
-## Step 4: Don't forget to push your changes to GitHub!
-As with every other homework, if your code isn't on GitHub we won't be able to grade it!  Once you're happy with the fixes you've made to the code (likely when all the test cases pass), see steps 6 and 7 above for how to save your work to GitHub.
+## Step 4: Push your changes to GitHub!
+1. Commit and push your changes
+
+![](./images/intellij_commit_button.png)
+![](./images/intellij_commit_dialog.png)
+
+2. Confirm you'd like to push changes
+
+![](./images/intellij_push_dialog.png)
+
+#### NOTE: Each time you open this project, you should PULL to make sure your local repository is up to date with the remote repository
+
+![](./images/intellij_pull_button.png)
+
+As with every other homework, if your code isn't on GitHub we won't be able to grade it!  Once you're happy with the fixes you've made to the code (likely when all the test cases pass), save your work to GitHub.
 
 ## Reminder
 As always, feel free to ask questions on piazza, in pso, and/or office hours. Good luck!
