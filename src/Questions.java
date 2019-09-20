@@ -145,7 +145,7 @@ public class Questions {
         return sum;
     }
 
-    public static int reverseNumber(int input){ // TODO: RANK HARD
+    public static int reverseNumber(int input){
         // reverse the number
         // 12345 should become 54321
         // Hint: How would you turn 9 into 95? Not by adding 86
@@ -158,7 +158,7 @@ public class Questions {
         return answer;
     }
 
-    public static boolean findSubstring(String theBigOne, String sub){  // TODO: (DELETE COMMENT LATER) RANK: MED/HARD
+    public static boolean findSubstring(String theBigOne, String sub){
         // checks to see if variable sub appears in theBigOne
         // highly recommended to write this one out on a notebook
         int counter = 0;
