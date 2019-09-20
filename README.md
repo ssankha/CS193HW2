@@ -36,18 +36,23 @@ You should now see the main IntelliJ screen (It looks like the picture below).
 
 Click `Check out from Version Control` -> `Git` -> `Log in to GitHub...`
 
-3. Enter your GitHub credentials
+3. Click 'Clone'
+![](./images/newWelcomeScreen.png)
+
+4. Enter your GitHub credentials if asked for. (Note: The order of steps 3 and 4 might be flipped)
 
 ![](./images/intellij-github-login.png)
 
-4. Enter the URL of your copy of this homework and click `clone`
+5. Confirm checkout from version control. Click 'yes'
 
-![](./images/intellij-checkout-repo.png)
+![](./images/newCheckoutFromVersionControl.png)
 
-5. Make some changes to the documents
+6. IntelliJ will now ask you if you want to customize setup or rely on the default. You can just click 'Yes' or 'Confirm' on the screens that follow
 
-![](./images/print_before.png)
-![](./images/print_after.png)
+7. Make some changes to the documents
+
+![](./images/newInitialPreEdit.png)
+![](./images/newInitialPostEdit.png))
 
 ## Step 2: Running and debugging JUnit testcases
 1.  Configure IntelliJ for JUnit
