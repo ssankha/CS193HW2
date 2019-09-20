@@ -4,7 +4,7 @@
 As you heard from lecture, debugging is a very useful and necessary tool for developing software and solving problems. In this homework assignment you will be tasked with fixing errors in serveral methods. Each method solves a different problem such as finding the minimum in an array or running a binary search. The algorithm for each problem will be given, but there are small bugs littered in the code preventing the test cases from passing. 
 
 ## When is this due?
-This homework will be due in ######
+This homework will be due on 10/7/2019.
 
 ## When will I know I'm done?
 You will know that you have finished when all the test cases pass and your code is visible on GitHub. There will be hidden test cases that checks for any hardcoded solutions.
@@ -118,10 +118,10 @@ Use print statements, the debugger, or any strategy you'd like to fix the bugs i
 [Click here for Intellij's debugger documentation](https://www.jetbrains.com/help/idea/debugging-code.html)
 
 ## Step 4: Push your changes to GitHub!
-1. Commit and push your changes
+1. Commit and push your changes. **Note: Depending on version, the pull and commit may look like blue and green arrows instead.** 
 
 ![](./images/intellij_commit_button.png)
-![](./images/intellij_commit_dialog.png)
+![](./images/newCommitMsg.png)
 
 2. Confirm you'd like to push changes
 
