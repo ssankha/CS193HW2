@@ -133,5 +133,23 @@ Use print statements, the debugger, or any strategy you'd like to fix the bugs i
 
 As with every other homework, if your code isn't on GitHub we won't be able to grade it!  Once you're happy with the fixes you've made to the code (likely when all the test cases pass), save your work to GitHub.
 
+## Rubric
+The last 4 questions will be extra credit totalling up to 5 extra credit points!! We encourage you all to try it out. 
+
+| Task    | Points |
+| ------- | ------ |
+| Task 1  | 2      |
+| Task 2  | 2      |
+| Task 3  | 3      |
+| Task 4  | 3      |
+| Task 5  | 5      |
+| Task 6  | 5      |
+| Task 7  | 2      |
+| Task 8  | 1      |
+| Task 9  | 1      |
+| Task 10 | 1      |
+
+| Total   | 20     |
+
 ## Reminder
 As always, feel free to ask questions on piazza, in pso, and/or office hours. Good luck!
