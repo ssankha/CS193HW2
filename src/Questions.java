@@ -19,6 +19,7 @@ import java.util.*;
 
 public class Questions {
 
+    // Task 1
     public static int findMax(int[] input){
         // find the max in the input array
         int max = Integer.MAX_VALUE;
@@ -30,6 +31,7 @@ public class Questions {
         return max;
     }
 
+    // Task 2
     public static int findMin(int[] input){
         // find the smallest element in the array
         int min = Integer.MIN_VALUE;
@@ -41,6 +43,7 @@ public class Questions {
         return min;
     }
 
+    // Task 3
     public static int findSum(int[] input){
         // find the sum of all the elements in the array
         int sum = 0;
@@ -50,6 +53,7 @@ public class Questions {
         return sum;
     }
 
+    // Task 4
     public static int findAverage(int[] input){
         // find the average of the input
         int sum = 0;
@@ -60,6 +64,7 @@ public class Questions {
         return average;
     }
 
+    // Task 5
     public static ArrayList<String> fizzBuzz(int n){
         // EXPLANATION: RETURN A LIST 1 TO n BUT
         // Multiples OF 3 ARE REPLACED BY "fizz"
@@ -87,6 +92,24 @@ public class Questions {
         return answer;
 
     }
+    
+    // Task 6
+    public static int reverseNumber(int input){
+        // reverse the number
+        // 12345 should become 54321
+        // Hint: How would you turn 9 into 95? Not by adding 86
+        int answer = 1;
+        while(input != 0){
+            int digit = input % 10;
+            answer = answer + digit;
+            input = input/10;
+        }
+        return answer;
+    }
+    
+    //EXTRA CREDIT BELOW HERE
+    
+    // Task 7
     // Look for a specific element in sorted array
     // keep in mind for this algorithm to work, array HAS to be sorted
     public static int binarySearch(int[] input, int target){
@@ -105,7 +128,8 @@ public class Questions {
         }
         return -1; // element is not found
     }
-
+    
+    // Task 8
     public static int countDuplicates(String input){
         // Count the number of letters that are duplicated
         // The input string will always be lower case and contain no numbers
@@ -126,6 +150,7 @@ public class Questions {
         return counter;
     }
 
+    // Task 9
     public static int sumBetween193(int[] input){
         // Sum up numbers between the first 193 and the next 193 non-inclusive
         int sum = 0;
@@ -135,6 +160,7 @@ public class Questions {
                 sum = sum * input[i];
                 if (input[i] == 193){
                     startCounting = false;
+                    break;
                 }
             }else{
                 if(input[i] == 193){
@@ -145,19 +171,7 @@ public class Questions {
         return sum;
     }
 
-    public static int reverseNumber(int input){
-        // reverse the number
-        // 12345 should become 54321
-        // Hint: How would you turn 9 into 95? Not by adding 86
-        int answer = 1;
-        while(input != 0){
-            int digit = input % 10;
-            answer = answer + digit;
-            input = input/10;
-        }
-        return answer;
-    }
-
+    // Task 10
     public static boolean findSubstring(String theBigOne, String sub){
         // checks to see if variable sub appears in theBigOne
         // highly recommended to write this one out on a notebook
