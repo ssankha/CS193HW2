@@ -144,11 +144,10 @@ The last 4 questions will be extra credit totalling up to 5 extra credit points!
 | Task 4  | 3      |
 | Task 5  | 5      |
 | Task 6  | 5      |
-| Task 7  | 2      |
-| Task 8  | 1      |
-| Task 9  | 1      |
-| Task 10 | 1      |
-
+| Task 7  | 2(EC)  |
+| Task 8  | 1(EC)  |
+| Task 9  | 1(EC)  |
+| Task 10 | 1(EC)   |
 | Total   | 20     |
 
 ## Reminder
