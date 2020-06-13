@@ -1,4 +1,4 @@
-# CS193HW3: Debugging 
+# CS193HW2: Debugging 
 
 ## What is this assignment
 As you heard from lecture, debugging is a very useful and necessary tool for developing software and solving problems. In this homework assignment you will be tasked with fixing errors in serveral methods. Each method solves a different problem such as finding the minimum in an array or running a binary search. The algorithm for each problem will be given, but there are small bugs littered in the code preventing the test cases from passing. 
