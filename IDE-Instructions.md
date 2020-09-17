@@ -1,4 +1,4 @@
-##Debugging: IDE Instructions
+# Debugging: IDE Instructions
 
 This handout specifies how to use IntelliJ to complete this homework. If you choose to use another Java-compatible IDE, you should still be ableto reference this document for a general roadmap; another good place to look for help would be the documentation of your chosen IDE.
 
