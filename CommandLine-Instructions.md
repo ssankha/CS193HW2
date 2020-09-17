@@ -15,13 +15,13 @@ Enter your Purdue password in the prompt. No text will appear after the prompt a
 
 From here, you can create or navigate to a folder where you’d like to put the homework document using the mkdir or cd commands, respectively. Once you’ve reached a place in your directory where you’d like to put the homework, run the command:
 
-**git clone https://github.com/Purdue-CS193/homework-2-(your-GitHub-username).git**
+**git clone https://github.com/Purdue-CS193/homework-2-<your_GitHub_username>.git**
 
 You can also copy the clone link from the green button at the top of this repo that says 'Code'. If the clone is successful, you’ll see the following:
 
 ![](./images/successful-clone.JPG)
 
-And if you run the command **ls**, you should see a directory called homework-2-<your-github-username>. Cd into that directory using the command **cd homework-2-<your-github-username>**. Run **ls** in that directory and you’ll see multiple files and subdirectories. The **README** file contains the instructions for this assignment. The **src** subdirectory contains all of the Java files you’ll need to edit/debug for this assignment. Navigate to this directory using **cd src** and inspect the java files using whichever text editor you prefer (nano, vim, etc). The **Questions.java** file is the one you’ll be editing; the **TestCases.java** file contains code to test the code you edit.
+And if you run the command **ls**, you should see a directory called homework-2-<your_github_username>. Cd into that directory using the command **cd homework-2-<your_github_username>**. Run **ls** in that directory and you’ll see multiple files and subdirectories. The **README** file contains the instructions for this assignment. The **src** subdirectory contains all of the Java files you’ll need to edit/debug for this assignment. Navigate to this directory using **cd src** and inspect the java files using whichever text editor you prefer (nano, vim, etc). The **Questions.java** file is the one you’ll be editing; the **TestCases.java** file contains code to test the code you edit.
 
 ## Step 2: Running and debugging JUnit testcases
 Download the file named ‘junit-platform-console-standalone-1.7.0-M1.jar’ at the link [here](https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.7.0-M1/junit-platform-console-standalone-1.7.0-M1.jar).
@@ -42,7 +42,7 @@ If the scp command has run correctly, you will be prompted to login to your acco
 
 Once the file is in the correct location, run the command
 
-**javac -d out -cp out:junit-platform-console-standalone-1.7.0-M1.jar TestCases.java Questions.java **
+**javac -d out -cp out:junit-platform-console-standalone-1.7.0-M1.jar TestCases.java Questions.java**
 
 To compile the test cases. After compiling, run **ls**. A new executable file named **out** should exist in your directory. If there are no error messages, run the command:
 
