@@ -7,17 +7,24 @@ Open the command prompt on your local machine. If you are using your personal la
 
 Into the command prompt. Hit enter to run the command. You will be presented with a password prompt:
 
+![](./images/commandline-passwordprompt.JPG)
+
 Enter your Purdue password in the prompt. No text will appear after the prompt as you type; this is normal! Hit enter when you’re done, and if you’ve entered it incorrectly you’ll be prompted for a password again. If not, you’ll see something like this:
+
+![](./images/successful-login.JPG)
 
 From here, you can create or navigate to a folder where you’d like to put the homework document using the mkdir or cd commands, respectively. Once you’ve reached a place in your directory where you’d like to put the homework, run the command:
 
-**git clone https://github.com/Purdue-CS193/homework-2-<your-purdue-username>.git**
+**git clone https://github.com/Purdue-CS193/homework-2-/<your-GitHub-username/>.git**
 
-If the clone is successful, you’ll see the following:
-And if you run the command **ls**, you should see a directory called CS193HW2. Cd into that directory using the command **cd CS193HW2** (the directory name is case-sensitive!). Run **ls** in that directory and you’ll see multiple files and subdirectories. The **README** file contains the instructions for this assignment. The **src** subdirectory contains all of the Java files you’ll need to edit/debug for this assignment. Navigate to this directory using **cd src** and inspect the java files using whichever text editor you prefer (nano, vim, etc). The **Questions.java** file is the one you’ll be editing; the **TestCases.java** file contains code to test the code you edit.
+You can also copy the clone link from the green button at the top of this repo that says 'Code'. If the clone is successful, you’ll see the following:
+
+![](./images/successful-clone.JPG)
+
+And if you run the command **ls**, you should see a directory called homework-2-<your-github-username>. Cd into that directory using the command **cd homework-2-<your-github-username>**. Run **ls** in that directory and you’ll see multiple files and subdirectories. The **README** file contains the instructions for this assignment. The **src** subdirectory contains all of the Java files you’ll need to edit/debug for this assignment. Navigate to this directory using **cd src** and inspect the java files using whichever text editor you prefer (nano, vim, etc). The **Questions.java** file is the one you’ll be editing; the **TestCases.java** file contains code to test the code you edit.
 
 ## Step 2: Running and debugging JUnit testcases
-Download the file named ‘junit-platform-console-standalone-1.7.0-M1.jar’ at the link [here](https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.7.0-M1/junit-platform-console-standalone-1.7.0-M1.jar)
+Download the file named ‘junit-platform-console-standalone-1.7.0-M1.jar’ at the link [here](https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.7.0-M1/junit-platform-console-standalone-1.7.0-M1.jar).
 
 To compile the test cases, the file you just downloaded must be located in the same repository where the test cases are found. To do this, you’ll need to access the file on your local machine and send it to your remote machine.
 
@@ -43,7 +50,11 @@ To compile the test cases. After compiling, run **ls**. A new executable file na
 
 To run the test cases. The output may look confusing, but the most important information is located at the bottom. It should look something like:
 
+![](./images/test-case-run.JPG)
+
 The bottom two lines show the number of tests succeeded and failed. To further inspect how each test has behaved, scroll up:
+
+![](./images/test-behavior.JPG)
 
 This output exists for each test. The first line displays the name of the test, and the third line shows the expected and the actual output. In the example above, the expected output was 5 (expected:<5>), while the actual output was 0 (was:<0>).
 
@@ -57,7 +68,7 @@ You might also want to try to understand the algorithms, such as binary search, 
 
 [Click here for JDB Documentation!](https://www.tutorialspoint.com/jdb/jdb_syntax.htm)
 
-##Step 4: Push your changes to GitHub!
+## Step 4: Push your changes to GitHub!
 When you’re ready to push your changes to your main repository (GitHub), navigate to your **src** directory, or whichever directory contains your **TestCases** and **Questions** files. Run the command **git add .** to stage all of your changes before committing - DO NOT FORGET the period at the end! If you want to ensure all the changed files have been staged, you can run **git status** to see the status of the added files. 
 
 After staging the files, run **git commit -m “Your commit message here”**, and include your unique, descriptive commit message between the quotes of the final argument. PSA: Your TAs and instructors can see your commit messages.
