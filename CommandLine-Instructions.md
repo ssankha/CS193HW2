@@ -34,31 +34,25 @@ If you’ve ssh’d via a tool (like PuTTY) instead of your command line, open y
 
 Once you’ve accessed your local computer’s command line, you need to copy the downloaded file to your remote machine. To get the file from your local to your remote computer, run the command:
 
-**scp <local_filepath> <your-purdue-username>@data.cs.purdue.edu:<your_testcase_filepath>**
+**scp local_filepath your-purdue-username@data.cs.purdue.edu:your_testcase_filepath**
 
 For instance, if your local file is stored in your Downloads folder, the local file path would be **Downloads/junit-platform-console-standalone-1.7.0-M1.jar**. Your test cases will be located at **CS193HW2/src**. If you’ve cloned the repo into a subdirectory, make sure to include the full path name, starting from your home directory. 
 
 If the scp command has run correctly, you will be prompted to login to your account on the data server (just like when you ssh’d!). After logging in, the file should be copied to the **src** directory which contains your test cases. Navigate to that directory and run ‘ls’ to ensure that the file exists in the correct location.
 
-Once the file is in the correct location, run the command
+Once the file is in the correct location, run the **./run.sh** command to compile and run the test cases.
 
-**javac -d out -cp out:junit-platform-console-standalone-1.7.0-M1.jar TestCases.java Questions.java**
+The output may look confusing, but the most important information is located at the bottom. It should look something like:
 
-To compile the test cases. After compiling, run **ls**. A new executable file named **out** should exist in your directory. If there are no error messages, run the command:
+![](./images/test_case_run_color.JPG)
 
-**java -jar junit-platform-console-standalone-1.7.0-M1.jar --class-path out --scan-class-path**
+The bottom two lines show the number of tests succeeded and failed. **run.sh** will highlight these in green and red, respectively. To further inspect how each test has behaved, scroll up:
 
-To run the test cases. The output may look confusing, but the most important information is located at the bottom. It should look something like:
+![](./images/test_case_behavior_color.JPG)
 
-![](./images/test-case-run.JPG)
+This output exists for each test. The first line displays the name of the test, and the third line shows the expected and the actual output. In the example above, the expected output was 5 (expected:<5>), while the actual output was 0 (was:<0>). **run.sh** will highlight each individual test in blue.
 
-The bottom two lines show the number of tests succeeded and failed. To further inspect how each test has behaved, scroll up:
-
-![](./images/test-behavior.JPG)
-
-This output exists for each test. The first line displays the name of the test, and the third line shows the expected and the actual output. In the example above, the expected output was 5 (expected:<5>), while the actual output was 0 (was:<0>).
-
-You can use the output above to logically debug your code, or you can use resources given below to debug failed tests.
+You can use the output above to logically debug your code (think about what the errors are), or you can use resources given below to debug failed tests.
 
 ## Step 3: Fix those bugs
 You can use print statement debugging by manually editing the **Questions.java** file and adding print statements. Use whichever text editor you’re most familiar with.
