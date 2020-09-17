@@ -42,11 +42,19 @@ If the scp command has run correctly, you will be prompted to login to your acco
 
 Once the file is in the correct location, run the **run.sh** script (run **./run.sh**) to compile and run the test cases.
 
+Note: if you get an error that says "Permission denied" when running run.sh, run the following command:
+
+**chmod +x run.sh**
+
+Then try again. After running this command, you should not have to run it again.
+
 The output may look confusing, but the most important information is located at the bottom. It should look something like:
 
 ![](./images/test_case_run_color.JPG)
 
-The bottom two lines show the number of tests succeeded and failed. **run.sh** will highlight these in green and red, respectively. To further inspect how each test has behaved, scroll up:
+The bottom two lines show the number of tests succeeded and failed. **run.sh** will highlight these in green and red, respectively. Please keep in mind that some of these test cases are for the extra credit portion of the assignment, so make sure that you are passing the necessary test cases. If you decide not to do the extra credit, the failed tests will still be highlighted red, but it will not count against you.
+
+To further inspect how each test has behaved, scroll up:
 
 ![](./images/test_case_behavior_color.JPG)
 
@@ -59,6 +67,8 @@ You can use print statement debugging by manually editing the **Questions.java**
 
 You can also use the Java command-line debugger, JDB, to debug by setting breakpoints and inspecting variables as you step through your code. There is a link below to JDB documentation, which will guide you through it’s usage.
 You might also want to try to understand the algorithms, such as binary search, as they commonly show up in technical interviews (although you're not required to do this). **You are NOT allowed to make any changes to the test case file. If you feel there is a need to make changes, please email your TA or post on Piazza. It will be an automatic 0 if changes are made!**
+
+You may continue to use run.sh to check your solutions until you get the correct answers.
 
 [Click here for JDB Documentation!](https://www.tutorialspoint.com/jdb/jdb_syntax.htm)
 
