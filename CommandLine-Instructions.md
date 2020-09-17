@@ -40,7 +40,7 @@ For instance, if your local file is stored in your Downloads folder, the local f
 
 If the scp command has run correctly, you will be prompted to login to your account on the data server (just like when you ssh’d!). After logging in, the file should be copied to the **src** directory which contains your test cases. Navigate to that directory and run ‘ls’ to ensure that the file exists in the correct location.
 
-Once the file is in the correct location, run the **./run.sh** command to compile and run the test cases.
+Once the file is in the correct location, run the **run.sh** script (run **./run.sh**) to compile and run the test cases.
 
 The output may look confusing, but the most important information is located at the bottom. It should look something like:
 
