@@ -21,8 +21,9 @@ The choice of which platform to use is entirely yours! We will give detailed ins
 
 Once you've decided, follow these links to find the appropriate handout:
 
-IDE: [IDE Instructions](./IDE-Instructions.md)
-Command Line: [Command Line Instructions](./CommandLine-Instructions.md)
+[IDE Instructions](./IDE-Instructions.md)
+
+[Command Line Instructions](./CommandLine-Instructions.md)
 
 ## Rubric
 The last 4 questions will be extra credit totalling up to 5 extra credit points!! We encourage you all to try it out. 
