@@ -15,7 +15,7 @@ Enter your Purdue password in the prompt. No text will appear after the prompt a
 
 From here, you can create or navigate to a folder where you’d like to put the homework document using the mkdir or cd commands, respectively. Once you’ve reached a place in your directory where you’d like to put the homework, run the command:
 
-**git clone https://github.com/Purdue-CS193/homework-2-/<your-GitHub-username/>.git**
+**git clone https://github.com/Purdue-CS193/homework-2-(your-GitHub-username).git**
 
 You can also copy the clone link from the green button at the top of this repo that says 'Code'. If the clone is successful, you’ll see the following:
 
