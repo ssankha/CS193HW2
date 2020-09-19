@@ -19,10 +19,11 @@ You should now see the main IntelliJ screen (It looks like the picture below).
 
 **NOTE: If you just clone without letting IntelliJ configure everything for you, it's a pain in the butt to fix. Please let IntelliJ create everything for you!**
 
-2. Checkout a project from Version Control.  This is done from the welcome screen in Intellij! **NOTE:** In the example, the URL says homework 3. Make sure that your URL reads 'homework 2' instead!
+2. Checkout a project from Version Control.  This is done from the welcome screen in Intellij! 
 ![](./images/intellij-welcome.png) 
 
-Click `Check out from Version Control` -> `Git` -> `Log in to GitHub...`
+Click `Check out from Version Control` -> `Git` -> `Log in to GitHub...` 
+**NOTE:** In the example, the URL says homework 3. Make sure that your URL reads 'homework 2' instead!
 
 3. Click 'Clone'
 ![](./images/newWelcomeScreen.png)
