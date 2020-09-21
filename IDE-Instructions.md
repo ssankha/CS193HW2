@@ -23,7 +23,7 @@ You should now see the main IntelliJ screen (It looks like the picture below).
 ![](./images/intellij-welcome.png) 
 
 Click `Check out from Version Control` -> `Git` -> `Log in to GitHub...` 
-**NOTE:** In the example, the URL says homework 3. Make sure that your URL reads 'homework 2' instead!
+**NOTE:** In the example, the URL says purdue-cs193-fall-2019/homework-3-<your-github-here>. Make sure that your URL reads purdue-cs193-fall-2020/homework-2-<your-github> instead!
 
 3. Click 'Clone'
 ![](./images/newWelcomeScreen.png)
